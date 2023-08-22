@@ -37,3 +37,16 @@ else
 fileContent.style.fontStyle = "italic";
 break;
 case "n":
+fileContent.style.fontWeight = "normal";
+fileContent.style.fontStyle = "normal";
+fileContent.style.textDecoration = "none";
+break;
+case "u":
+if(fileContent.style.textDecoration === "underline")
+fileContent.style.textDecoration = "none";
+else
+fileContent.style.textDecoration = "underline"
+break;
+
+}
+}
